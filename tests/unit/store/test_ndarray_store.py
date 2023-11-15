@@ -13,7 +13,7 @@ def test_dtype_parsing():
     store = NdarrayStore()
     dtypes = []
 
-    dtypes.append(np.dtype(np.object_))
+    dtypes.append(np.dtype(object))
     dtypes.append(np.dtype(np.float128))
     dtypes.append(np.dtype('int64'))
     dtypes.append(np.dtype([('A', 'int64')]))

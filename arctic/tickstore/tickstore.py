@@ -506,7 +506,7 @@ class TickStore(object):
             rtn[:] = np.nan
             return rtn
         else:
-            return np.empty(length, dtype=np.object_)
+            return np.empty(length, dtype=object)
 
     def stats(self):
         """
